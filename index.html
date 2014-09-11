@@ -22,6 +22,21 @@
   <!-- If use the PDF print sheet so students can print slides-->
 
   <link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
+  <script src="../platform/platform.js"></script>
+<link rel="import" href="my-components/x-gangnam-style.html">
+
+<style>
+#main {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+</style>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -79,6 +94,37 @@
         </p>
         </code></pre>        
       </section>
+      <section>
+    <p>
+        <h2>Demo!!!</h2> 
+        <li><span>Finally....</span>
+      </p>
+      
+      </section>
+       <section>
+           <pre><code class="commandline">
+           <p>
+          
+           &lt;x-ganham-style> &lt;x-ganham-style">
+        </p>
+        </code></pre>  
+       </section>
+       <section>
+       
+<title>Gangnam style on Web Components</title>
+
+
+
+<div id="main">
+
+<x-gangnam-style></x-gangnam-style>
+
+</div>
+
+
+
+
+       </section>
 
     </div>
     <footer>
@@ -117,6 +163,16 @@
      });
 
 </script>
+<script>
+(function () {
+  document.addEventListener('polymer-ready', function(e) {
+    console.log(e);
+  });
+  
+  //var m = document.createElement('x-gangnam-style');
+})();
+</script>
+
 
 </body>
 </html>
